@@ -26,7 +26,7 @@ cd backend/profileService
 
 nano .env
 PORT=$PORT
-MONGO_URL="mongodb+srv://adarsh307kumar:4nkLEEwsUpbM8vZA@travelmemory.wxwkpag.mongodb.net/"
+MONGO_URL=""
 
 
 nano dockerfile

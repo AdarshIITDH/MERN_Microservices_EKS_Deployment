@@ -26,6 +26,8 @@ cd backend/profileService
 
 nano .env
 PORT=$PORT
+MONGO_URL="mongodb+srv://adarsh307kumar:4nkLEEwsUpbM8vZA@travelmemory.wxwkpag.mongodb.net/"
+
 
 nano dockerfile
 ```
@@ -34,6 +36,7 @@ WORKDIR /
 COPY . /
 RUN npm install
 ENV PORT 3002
+ENV MONGO_URL MONGO_URL
 CMD ["node", "index.js","3002"]
 ```
 ```

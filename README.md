@@ -18,10 +18,10 @@ ENV PORT 3001
 CMD ["node", "index.js","3001"]
 ```
 ```
-docker build -t be_hellosvc:v1 .
+docker build -t be_hello_svc:latest .
 ```
 ```
-docker run -it -e PORT=3001 -p 3001:3001 be_hellosvc:v1
+docker run -it -e PORT=3001 -p 3001:3001 be_hello_svc:latest
 ```
 
 cd backend/profileService

@@ -23,6 +23,10 @@ docker build -t be_hello_svc:latest .
 ```
 docker run -it -e PORT=3001 -p 3001:3001 be_hello_svc:latest
 ```
+```
+public.ecr.aws/c3w1m1q2/be_hello_svc:latest
+https://gallery.ecr.aws/c3w1m1q2/be_hello_svc
+```
 
 cd backend/profileService
 
@@ -47,4 +51,8 @@ docker build -t be_profilesvc:v1 .
 
 ```
 docker run -it -e MONGO_URL="your mongo url" -p 3002:3002 be_profilesvc:v1
+```
+```
+public.ecr.aws/c3w1m1q2/be_profile_svc:latest
+https://gallery.ecr.aws/c3w1m1q2/be_profile_svc
 ```

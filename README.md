@@ -56,3 +56,6 @@ docker run -it -e MONGO_URL="your mongo url" -p 3002:3002 be_profilesvc:v1
 public.ecr.aws/c3w1m1q2/be_profile_svc:latest
 https://gallery.ecr.aws/c3w1m1q2/be_profile_svc
 ```
+```
+http://<host ip>:3002/fetchUser
+```

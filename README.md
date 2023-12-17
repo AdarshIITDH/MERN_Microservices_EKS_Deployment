@@ -18,7 +18,7 @@ ENV PORT 3001
 CMD ["node", "index.js","3001"]
 ```
 ```
-docker build -t be_hellosvc:v1 -f dockerfile  .
+docker build -t be_hellosvc:v1 .
 ```
 
 

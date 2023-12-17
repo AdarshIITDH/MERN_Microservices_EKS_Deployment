@@ -20,7 +20,9 @@ CMD ["node", "index.js","3001"]
 ```
 docker build -t be_hellosvc:v1 .
 ```
-
+```
+docker run -it -e PORT=3001 -p 3001:3001 be_hellosvc:v1
+```
 
 cd backend/profileService
 
@@ -40,5 +42,9 @@ ENV MONGO_URL MONGO_URL
 CMD ["node", "index.js","3002"]
 ```
 ```
-docker build -t be_profilesvc:v1 -f dockerfile  .
+docker build -t be_profilesvc:v1 .
+```
+
+```
+docker run -it -e MONGO_URL="your mongo url" -p 3002:3002 be_profilesvc:v1
 ```

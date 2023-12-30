@@ -1,4 +1,7 @@
-# Frontend Service
+# Frontend Micro Service
+
+In Frontend microservice it will connect to both the backend microservice helloservice and profile service.
+
 ```
 cd frontend
 ```

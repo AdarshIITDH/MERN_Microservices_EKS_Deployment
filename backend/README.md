@@ -98,11 +98,7 @@ https://gallery.ecr.aws/c3w1m1q2/profile_service_adarsh
 ![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/622b3cc4-8ad5-4c9d-89e7-3ce663ee34da)
 
 
-## Frontend Service
-```
-cd frontend
-```
-Inside the frontend microservice create a .env file for dynamically changing the backend urls for both hello microservice and profile microservice
+
 
 
 

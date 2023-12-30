@@ -30,10 +30,19 @@ Lets build the Docker Image of the Frontend Microservice
 ```
 docker build -t fe_svc .
 ```
+Lets test the Docker container with the environment variables
+```
+docker run -it -e REACT_APP_API_HELLO=http://<ec2 public ip>:3001 -e REACT_APP_API_URL=http://<ec2 public ip>:3002/fetchUser -p 3000:3000 fe_svc
+```
+![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/80d211c5-cbb5-44d9-a5bb-200e546ab6b8)
 
 
-docker run -it -e REACT_APP_API_URL=http://65.2.38.66:3001 -e REACT_APP_API_HELLO=http://65.2.38.66:3002/fetchUser -p 3000:3000 fe_svc
+Now push the image to the ECR
 
-
+```
+public.ecr.aws/c3w1m1q2/frontend_service_adarsh
+```
+https://gallery.ecr.aws/c3w1m1q2/frontend_service_adarsh
+![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/e8561d9b-6c53-41d8-bae5-13daad36bc23)
 
 

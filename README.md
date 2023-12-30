@@ -24,7 +24,7 @@ MERN_Microservices_EKS_Deployment/
 
 ### For Backend
 
-https://github.com/AdarshIITDH/SampleMERNwithMicroservices/tree/main/backend
+https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/blob/main/backend/README.md
 
 
 

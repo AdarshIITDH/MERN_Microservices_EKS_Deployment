@@ -1,12 +1,13 @@
 Backend Service
 
 ```
-tree --filelimit 3 SampleMERNwithMicroservices/backend/
+tree --filelimit 3 backend/
 ```
 ```
-SampleMERNwithMicroservices/backend/
+backend/
+├── README.md
 ├── helloService  
-└── profileService 
+└── profileService  
 ```
 
 ```

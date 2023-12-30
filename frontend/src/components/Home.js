@@ -1,13 +1,17 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+const REACT_APP_API_URL= process.env.REACT_APP_API_URL;
+const REACT_APP_API_HELLO= process.env.REACT_APP_API_HELLO;
+
+
 function Home() {
   const [message, setMessage] = useState("");
   const [profile, setProfile] = useState([]);
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/")
+      .get(REACT_APP_API_HELLO)
       .then((response) => {
         setMessage(response.data.msg);
       })
@@ -16,7 +20,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3002/fetchUser")
+      .get(REACT_APP_API_URL)
       .then((response) => {
         setProfile(response.data);
         

@@ -10,7 +10,7 @@ backend/
 └── profileService  
 ```
 
-### Hello Microservice
+## Hello Microservice
 ```
 cd helloService
 ```
@@ -53,7 +53,7 @@ https://gallery.ecr.aws/c3w1m1q2/hello_service_adarsh
 ![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/7badf844-e56a-42a8-af8a-99481eecf998)
 
 
-### Profile Microservice
+## Profile Microservice
 ```
 cd profileService
 ```

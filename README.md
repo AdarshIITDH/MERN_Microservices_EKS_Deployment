@@ -30,10 +30,10 @@ MERN_Microservices_EKS_Deployment/
 ![image](https://github.com/AdarshIITDH/SampleMERNwithMicroservices/assets/60352729/73977351-6211-445d-af38-9e6151a49663)
 
 
-### For Backend
+### For Backend Microservice
 
 https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/blob/main/backend/README.md
 
+### For Frontend Microservice
 
-
-
+https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/tree/main/frontend

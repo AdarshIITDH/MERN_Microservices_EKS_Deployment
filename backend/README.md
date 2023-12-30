@@ -12,6 +12,9 @@ backend/
 
 ```
 cd helloService
+```
+Inside the helloservice create a .env file for dynamic hosting the application at available port
+```
 nano .env
 PORT=$PORT
 ```

@@ -15,6 +15,18 @@ REACT_APP_API_URL=$REACT_APP_API_URL
 REACT_APP_API_HELLO=$REACT_APP_API_HELLO
 ```
 
+Now let's containerise the frontend microservice
+```
+FROM node:18
+WORKDIR /
+COPY . /
+ENV REACT_APP_API_URL $REACT_APP_API_URL
+ENV REACT_APP_API_HELLO $REACT_APP_API_HELLO
+RUN npm install
+CMD ["npm", "run", "start"]
+```
 
-
-
+Lets build the Docker Image of the Frontend Microservice
+```
+docker build -t fe_svc .
+```

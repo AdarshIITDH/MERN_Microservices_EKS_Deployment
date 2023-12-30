@@ -2,15 +2,16 @@
 
 This application has 3 microservices, 2 for the backend and 1 for the frontend.
 ```
-tree --filelimits 3 SampleMERNwithMicroservices/
+tree --filelimits 3 MERN_Microservices_EKS_Deployment/
 ```
 ```
-SampleMERNwithMicroservices/
+MERN_Microservices_EKS_Deployment/
+├── README.md
 ├── backend
-│   ├── helloService  
-│   └── profileService  
-├── frontend 
-└── README.md
+│   ├── README.md
+│   ├── helloService  
+│   └── profileService  
+└── frontend 
 ```
 ## Prerequisites
 1: EC2 (min of 4Gb ram and 20 GB disk)

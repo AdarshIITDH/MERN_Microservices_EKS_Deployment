@@ -30,3 +30,10 @@ Lets build the Docker Image of the Frontend Microservice
 ```
 docker build -t fe_svc .
 ```
+
+
+docker run -it -e REACT_APP_API_URL=http://65.2.38.66:3001 -e REACT_APP_API_HELLO=http://65.2.38.66:3002/fetchUser -p 3000:3000 fe_svc
+
+
+
+

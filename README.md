@@ -13,7 +13,7 @@ SampleMERNwithMicroservices/
 └── README.md
 ```
 
-for backend
+For Backend
 
 https://github.com/AdarshIITDH/SampleMERNwithMicroservices/tree/main/backend
 

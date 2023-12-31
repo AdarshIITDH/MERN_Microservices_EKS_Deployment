@@ -55,4 +55,10 @@ MERN_Microservices_EKS_Deployment/
      
      Frontend Microservice: https://gallery.ecr.aws/c3w1m1q2/frontend_service_adarsh
 
+### Version Control
 
+1. Use AWS CodeCommit:
+
+   - Create a CodeCommit repository.
+
+   - Push the MERN application source code to the CodeCommit repository.

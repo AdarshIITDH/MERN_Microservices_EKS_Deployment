@@ -102,6 +102,13 @@ MERN_Microservices_EKS_Deployment/
      Code is sucessfully pushed to code commit
      ![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/9a7dca54-c4b5-43e7-a2c3-9d7f2d15c846)
 
+### Continuous Integration with Jenkins
+
+1. Create Jenkins Jobs:
+
+   - Create Jenkins jobs for building and pushing Docker images to ECR.
+
+   - Trigger the Jenkins jobs whenever there's a new commit in the CodeCommit repository.
 
 
 

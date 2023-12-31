@@ -29,11 +29,24 @@ MERN_Microservices_EKS_Deployment/
 
 ![image](https://github.com/AdarshIITDH/SampleMERNwithMicroservices/assets/60352729/73977351-6211-445d-af38-9e6151a49663)
 
+### Prepare the MERN Application
 
-### For Backend Microservice
+1. Containerize the MERN Application:
 
-https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/blob/main/backend/README.md
+   - Ensure the MERN application is containerized using Docker. Create a Dockerfile for each component (frontend and backend).
+  
+      For Backend Microservice
+      https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/blob/main/backend/README.md
 
-### For Frontend Microservice
+      For Frontend Microservice
+      https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/tree/main/frontend
 
-https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/tree/main/frontend
+2. Push Docker Images to Amazon ECR:
+
+   - Build Docker images for the frontend and backend.
+
+   - Create an Amazon ECR repository for each image.
+
+   - Push the Docker images to their respective ECR repositories.
+
+

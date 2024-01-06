@@ -221,6 +221,8 @@ MERN_Microservices_EKS_Deployment/
 2. Deploy Application with Helm:
 
    - Use Helm to package and deploy the MERN application on EKS.
+     https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/tree/main/deploy
+     
 
 
 

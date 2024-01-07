@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: hello
+  name: hello
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      run: hello
+  template:
+    metadata:
+      labels:
+        run: hello
+    spec:
+      containers:
+      - image: public.ecr.aws/c3w1m1q2/hello_service_adarsh
+        name: hello-microservice
+        ports:
+        - containerPort: 3001

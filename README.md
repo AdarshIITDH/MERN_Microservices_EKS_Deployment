@@ -111,43 +111,6 @@ MERN_Microservices_EKS_Deployment/
    - Trigger the Jenkins jobs whenever there's a new commit in the CodeCommit repository.
 
 
-### Infrastructure as Code (IaC) with Boto3
-
-1. Define Infrastructure with Boto3 (Python Script):
-
-   - Use Boto3 to define the infrastructure (VPC, subnets, security groups).
-
-   - Define an Auto Scaling Group (ASG) for the backend.
-
-   - Create AWS Lambda functions if needed.
-     
-
-###  Deploying Backend Services
-
-1. Deploy Backend on EC2 with ASG:
-
-   - Use Boto3 to deploy EC2 instances with the Dockerized backend application in the ASG.
-  
-   
-### Set Up Networking
-
-
-1. Create Load Balancer:
-
-   - Set up an Elastic Load Balancer (ELB) for the backend ASG.
-
-
-2. Configure DNS:
-
-   - Set up DNS using Route 53 or any other DNS service.
-
-
-### Deploying Frontend Services
-
-
-1. Deploy Frontend on EC2:
-
-   - Use Boto3 to deploy EC2 instances with the Dockerized frontend application.
 
 
 

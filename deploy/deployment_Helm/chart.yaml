@@ -1,0 +1,4 @@
+apiVersion: v2
+name: mern-microservice
+description: This is a helm chart for microservices that we were creating.
+version: 0.1.0

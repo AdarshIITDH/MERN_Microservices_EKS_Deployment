@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello
+spec:
+  replicas: {{ .Values.hello.replicaCount }}
+  selector:
+    matchLabels:
+      app: hello
+  template:
+    metadata:
+      labels:
+        app: hello
+    spec:
+      containers:
+        - name: hello-container
+          image: "{{ .Values.hello.image.repository }}:{{ .Values.hello.image.tag }}"
+          ports:
+            - containerPort: {{ .Values.hello.service.port}}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-svc
+spec:
+  ports:
+    - port: {{ .Values.hello.service.port }}
+      protocol: TCP
+      targetPort: 3001
+  selector:
+    app: hello
+  type: {{ .Values.hello.service.type }}
+---

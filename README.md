@@ -248,6 +248,23 @@ MERN_Microservices_EKS_Deployment/
 
    - Use CloudWatch for monitoring and setting up alarms.
 
+![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/3e12b93f-6473-4939-ba52-41521fae8703)
+
+
+![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/ed1b2bab-cc3e-491c-815a-b861d0e5d8ea)
+
+
+![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/0c8bc73a-d034-4083-9bae-12ebdd0410a9)
+
+![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/d995a3cf-1e5c-4bf3-9b9a-1f93f2c1cef7)
+
+
+![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/f7a5f8a4-070b-4ea5-9469-45ab855386d5)
+
+![image](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/0362a08f-2edc-4c4e-9759-055e7645aee8)
+
+
+
 
 2. Configure Logging:
 

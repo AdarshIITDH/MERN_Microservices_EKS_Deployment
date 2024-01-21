@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: profile-deployment
+spec:
+  replicas: {{ .Values.profile.replicaCount }}
+  selector:
+    matchLabels:
+      app: profile
+  template:
+    metadata:
+      labels:
+        app: profile
+    spec:
+      containers:
+        - name: profile-container
+          image: "{{ .Values.profile.image.repository }}:{{ .Values.profile.image.tag }}"
+          ports:
+            - containerPort: {{ .Values.profile.service.port }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: profile-svc
+spec:
+  ports:
+    - port: {{ .Values.profile.service.port }}
+      protocol: TCP
+      targetPort: 3001
+  selector:
+    app: profile
+  type: {{ .Values.profile.service.type }}

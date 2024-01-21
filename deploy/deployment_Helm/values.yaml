@@ -1,1 +1,16 @@
 #values of deployment
+
+replicaCount: 3
+
+image:
+  repository: public.ecr.aws/c3w1m1q2/hello_service_adarsh
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  name: hello
+  type: ClusterIP
+  port: 3001
+
+
+

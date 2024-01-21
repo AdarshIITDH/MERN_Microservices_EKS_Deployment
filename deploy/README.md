@@ -139,5 +139,5 @@ kubectl expose deployment frontend-deployment --type=LoadBalancer --port=3000 --
 https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/tree/main/deploy/deployment_Helm
 
 ```
-helm install my-multiservice-release ./path/to/my-multiservice-chart
+helm install mern-microservice-release ./path/to/my-multiservice-chart
 ```

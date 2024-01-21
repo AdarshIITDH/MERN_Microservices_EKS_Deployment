@@ -13,6 +13,9 @@ MERN_Microservices_EKS_Deployment/
 │   └── profileService  
 └── frontend 
 ```
+![eks](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/dbd929ea-d0f4-4ad4-b3fa-0943fd6aac52)
+
+
 ## Prerequisites
    1: EC2 (min of 4Gb ram and 20 GB disk)
 

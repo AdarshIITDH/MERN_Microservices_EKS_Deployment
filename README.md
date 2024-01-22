@@ -13,7 +13,8 @@ MERN_Microservices_EKS_Deployment/
 │   └── profileService  
 └── frontend 
 ```
-![eks](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/dbd929ea-d0f4-4ad4-b3fa-0943fd6aac52)
+
+![kubernetes](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/265421af-0ffd-4588-9602-4f881790e955)
 
 
 ## Prerequisites

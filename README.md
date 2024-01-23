@@ -14,7 +14,7 @@ MERN_Microservices_EKS_Deployment/
 └── frontend 
 ```
 ## Table of Contents
-1. [Set Up the AWS Environment](#step-1-set-up-the-aws-environment)
+1. [Set Up the AWS Environment](#set-up-the-aws-environment)
    - 1.1 [Set Up AWS CLI and Boto3](#11-set-up-aws-cli-and-boto3)
 2. [Prepare the MERN Application](#step-2-prepare-the-mern-application)
    - 2.1 [Containerize the MERN Application](#21-containerize-the-mern-application)

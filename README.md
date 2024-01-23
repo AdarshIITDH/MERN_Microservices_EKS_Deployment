@@ -13,6 +13,18 @@ MERN_Microservices_EKS_Deployment/
 │   └── profileService  
 └── frontend 
 ```
+## Table of Contents
+1. [Set Up the AWS Environment](#step-1-set-up-the-aws-environment)
+   - 1.1 [Set Up AWS CLI and Boto3](#11-set-up-aws-cli-and-boto3)
+2. [Prepare the MERN Application](#step-2-prepare-the-mern-application)
+   - 2.1 [Containerize the MERN Application](#21-containerize-the-mern-application)
+   - 2.2 [Push Docker Images to Amazon ECR](#22-push-docker-images-to-amazon-ecr)
+3. [Version Control](#step-3-version-control)
+   - 3.1 [Use AWS CodeCommit](#31-use-aws-codecommit)
+4. [Continuous Integration and Deployment with Jenkins](#step-4-continuous-integration-and-deployment-with-jenkins)
+5. [Kubernetes (EKS) Deployment via HELM](#step-4-kubernetes-eks-deployment-via-helm)
+
+
 
 ![kubernetes](https://github.com/AdarshIITDH/MERN_Microservices_EKS_Deployment/assets/60352729/265421af-0ffd-4588-9602-4f881790e955)
 

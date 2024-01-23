@@ -23,6 +23,7 @@ MERN_Microservices_EKS_Deployment/
    - 3.1 [Use AWS CodeCommit](#use-aws-codecommit)
 4. [Continuous Integration with Jenkins](#continuous-integration-with-jenkins) 
 5. [Kubernetes (EKS) Deployment via HELM](#kubernetes-eks-deployment-via-helm)
+6. [Monitoring and Logging](#monitoring-and-logging)
 
 
 

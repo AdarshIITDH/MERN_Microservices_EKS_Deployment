@@ -15,7 +15,7 @@ MERN_Microservices_EKS_Deployment/
 ```
 ## Table of Contents
 1. [Set Up the AWS Environment](#set-up-the-aws-environment)
-   - 1.1 [Set Up AWS CLI and Boto3](#set-up-aws-cli-and-boto3)
+   - 1.1 [Set Up AWS CLI](#set-up-aws-cli)
 2. [Prepare the MERN Application](#prepare-the-mern-application)
    - 2.1 [Containerize the MERN Application](#containerize-the-mern-application)
    - 2.2 [Push Docker Images to Amazon ECR](#push-docker-images-to-amazon-ecr)

@@ -21,7 +21,7 @@ MERN_Microservices_EKS_Deployment/
    - 2.2 [Push Docker Images to Amazon ECR](#push-docker-images-to-amazon-ecr)
 3. [Version Control](#version-control)
    - 3.1 [Use AWS CodeCommit](#use-aws-codecommit)
-4. [Continuous Integration and Deployment with Jenkins](#continuous-integration-and-deployment-with-jenkins)
+4. [Continuous Integration with Jenkins](#continuous-integration-with-jenkins) 
 5. [Kubernetes (EKS) Deployment via HELM](#kubernetes-eks-deployment-via-helm)
 
 
@@ -130,7 +130,7 @@ MERN_Microservices_EKS_Deployment/
 
 
 
-### Kubernetes (EKS) Deployment
+### Kubernetes (EKS) Deployment via HELM
 
 1. Create EKS Cluster:
 
